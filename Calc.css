@@ -1,0 +1,135 @@
+input[type="text"] {
+    color: rgb(2, 2, 2);
+    font-family: "Montserrat Alternates", sans-serif;
+    user-select: none;
+}
+
+html {
+    position: relative;
+    margin: 0;
+    background: rgb(226, 210, 210);
+    overflow: auto;
+    padding: 15px;
+    min-width: 333px;
+    min-height: 500px;
+    user-select: none;
+    margin-left: 35%;
+    margin-top: 50px;
+}
+
+body {
+    max-height: 500px;
+    max-width: 350px;
+    position: relative;
+    margin: 0;
+    padding: 0;
+    background-color: white;
+
+}
+
+
+#calculator {
+    width: 333px;
+    height: 500px;
+    background: transparent;
+    overflow: hidden;
+}
+
+#container1 {
+    position: relative;
+    top: 0;
+    width: auto;
+    height: auto;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.881);
+
+}
+
+#container2 {
+    position: absolute;
+    width: auto;
+    height: auto;
+    background: transparent;
+    overflow: hidden;
+    text-align: center;
+    top: 195px;
+    background-color: black;
+
+
+
+}
+
+input[type="text"] {
+    position: absolute;
+    margin: 0;
+    width: 94%;
+    height: 50px;
+    font-size: 24px;
+    text-align: right;
+    background: transparent;
+    border: none;
+    padding: 0;
+    top: 0;
+    left: 0;
+}
+
+p {
+    color: white;
+    font-family: "Montserrat Alternates", sans-serif;
+    user-select: none;
+    display: inline-block;
+    position: relative;
+    top: 0;
+    left: 0;
+    margin: 5px;
+    width: 70px;
+    height: 40px;
+    border-radius: 10px;
+    background: transparent;
+    text-align: center;
+    padding-top: 10px;
+    cursor: pointer;
+    font-size: 24px;
+    vertical-align: middle;
+}
+
+#equal {
+    width: 150px;
+}
+
+#zero,
+#cleaner,
+#delNum,
+#percent,
+#one,
+#two,
+#three,
+#four,
+#five,
+#six,
+#seven,
+#eight,
+#nine,
+#point,
+#divide,
+#mult,
+#minus,
+#plus,
+#equal {
+    background: #171818;
+    transition-property: background-color;
+    transition-duration: 750ms;
+    transition-timing-function: cubic-bezier(0.075, 0.82, 0.165, 1);
+}
+
+#cleaner,
+#divide,
+#mult,
+#delNum,
+#minus,
+#plus,
+#equal,
+#percent {
+    background: #ff7700fb;
+    color: black;
+}
